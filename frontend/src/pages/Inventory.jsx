@@ -30,7 +30,7 @@ const Inventories = () => {
         </p>
         <img src={infoIcon} alt="Info" className="h-5 w-5 cursor-pointer" />
       </div>
-      <InventoryTable data={data} onRequest={handleOpenModal} />
+      <InventoryTable onRequest={handleOpenModal} />
       <RequestItemForm
         isOpen={isModalOpen}
         onClose={handleCloseModal}
