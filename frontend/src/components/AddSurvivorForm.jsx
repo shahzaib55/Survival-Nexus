@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import { createSurvivor } from "../services/survivorService.js";
 import { useItemData } from "../hooks/useItemsData.js";
 import "../styles/style.css";
-import { useSurvivors } from "../context/SurvivorContext.jsx"; // Add this import
+import { useSurvivors } from "../context/SurvivorContext.jsx"; 
 
 const AddSurvivor = ({ isOpen, onClose }) => {
-  const { survivors, setSurvivors } = useSurvivors(); // Add context hook
+  const { survivors, setSurvivors } = useSurvivors(); 
   const [survivorData, setSurvivorData] = useState({
     fullName: "",
     age: "",
