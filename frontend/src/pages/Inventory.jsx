@@ -3,12 +3,6 @@ import InventoryTable from "../components/InventoryTable";
 import RequestItemForm from "../components/RequestItemForm"; 
 import infoIcon from "../assets/info.png";
 
-
-const data = [
-  { name: "Ellie Williams", inventories: "1 Shotgun, 1 First Aid Kit" },
-  { name: "Joel Miller", inventories: "1 Pistol, 2 Bandages" },
-];
-
 const Inventories = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedSurvivor, setSelectedSurvivor] = useState(null);
